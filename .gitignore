@@ -1,0 +1,25 @@
+# Data & model artifacts (too large for git)
+*.tar
+*.pth
+*.pt
+*.ckpt
+*.npz
+data/
+outputs/
+
+# Original Kaggle downloads (cleaned copies live in notebooks/)
+/0*-rescuenet-*.ipynb
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
